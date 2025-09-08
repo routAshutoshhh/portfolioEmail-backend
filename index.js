@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(
   cors({
     //origin: "*",
-    origin: ["https://ashutosh-gamma.vercel.app/", "http://locahost:3000"],
+    origin: ["https://ashutosh-gamma.vercel.app/", "http://localhost:3000"],
     methods: ["POST"],
   })
 );
