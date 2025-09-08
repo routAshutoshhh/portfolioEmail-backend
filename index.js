@@ -18,7 +18,7 @@ app.set("trust proxy", 1); //important to use for rate limiting behind a proxy r
 app.use(
   cors({
     //origin: "*",
-    origin: ["https://ashutosh-gamma.vercel.app/", "http://localhost:3000"],
+    origin: ["https://ashutosh-gamma.vercel.app", "http://localhost:3000"],
     methods: ["POST"],
   })
 );
