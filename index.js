@@ -12,6 +12,8 @@ dotenv.config({ debug: true });
 //starting the server with the middleware in the json format
 app.use(express.json());
 
+app.set("trust proxy", 1); //important to use for rate limiting behind a proxy reverse whne deploying on render or vercel
+
 //enabling cors from everywqhere first - MIDDLEWARRE FOR CORS
 app.use(
   cors({
