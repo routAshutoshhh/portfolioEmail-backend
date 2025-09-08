@@ -1,0 +1,12 @@
+### testing the email send response 
+### using the oauth2 authentication for sending the email
+### using the nodemailer package for sending the email
+POST http://localhost:8000/sendEmail HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Ashutosh Tester",
+  "email": "ashu.tester@example.com",
+  "subject": "Portfolio Contact Test",
+  "message": "Hello Ashutosh! This is a test message sent via your portfolio backend."
+}

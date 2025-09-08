@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "this is the mail backend server for creating a contact me page",
+  "homepage": "https://github.com/routAshutoshhh/email-backend#readme",
+  "bugs": {
+    "url": "https://github.com/routAshutoshhh/email-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/routAshutoshhh/email-backend.git"
+  },
+  "license": "ISC",
+  "author": "Ashutosh Kumnar ROut",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "googleapis": "^159.0.0",
+    "nodemailer": "^7.0.6",
+    "nodmeon": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
