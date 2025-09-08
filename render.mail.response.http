@@ -1,0 +1,9 @@
+POST backendURL/sendEmail HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Ashutosh Tester",
+  "email": "ashu.tester@example.com",
+  "subject": "Portfolio Contact Test",
+  "message": "Hello Ashutosh! This is a test message sent via your portfolio backend."
+}

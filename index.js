@@ -15,7 +15,8 @@ app.use(express.json());
 //enabling cors from everywqhere first - MIDDLEWARRE FOR CORS
 app.use(
   cors({
-    origin: "*",
+    //origin: "*",
+    origin: ["https://ashutosh-gamma.vercel.app/", "http://locahost:3000"],
     methods: ["POST"],
   })
 );
